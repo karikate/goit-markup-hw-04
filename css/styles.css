@@ -125,6 +125,7 @@ section {
 }
 .header-mail,
 .header-tel {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -137,11 +138,12 @@ section {
 }
 
 .header-contacts {
+  display: flex;
   margin-left: auto;
 }
 
 .header-icon {
-  align-self: baseline;
+  align-self: center;
   margin-right: 10px;
   fill: var(--text-color);
 }
