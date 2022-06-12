@@ -519,7 +519,7 @@ section {
 }
 
 .portfolio-list-item {
-  flex-basis: calc(100% / (3- 30px));
+  flex-basis: calc(100% / (3 - 30px));
   margin-left: 30px;
   margin-bottom: 30px;
   border-bottom-width: 1px;
