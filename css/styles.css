@@ -244,6 +244,7 @@ section {
   height: 120px;
   background-color: var(--about-icon-color);
   margin-bottom: 30px;
+  border-radius: 4px;
 }
 
 /* ---------------------WORK--------------------- */
@@ -287,6 +288,8 @@ section {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   text-align: center;
   padding-bottom: 30px;
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-item:not(:first-child) {
@@ -519,10 +522,17 @@ section {
 }
 
 .portfolio-list-item {
-  flex-basis: calc(100% / (3 - 30px));
   margin-left: 30px;
   margin-bottom: 30px;
   border-bottom-width: 1px;
+}
+
+.portfolio-list-item:nth-child(3n + 1) {
+  margin-left: 0;
+}
+
+.portfolio-list-item:nth-child(n + 7) {
+  margin-bottom: 0;
 }
 
 .portfolio-list-item:hover {
